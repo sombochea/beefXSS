@@ -6,7 +6,7 @@ custom-config.yaml
 .DS_Store
 .gitignore
 .rvmrc
-
+.pc
 *.lock
 
 extensions/metasploit/msf-exploits.cache

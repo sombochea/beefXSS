@@ -10,8 +10,8 @@ gem 'eventmachine'
 gem 'thin'
 gem 'sinatra'
 gem 'rack'
-gem 'em-websocket', '~> 0.3.6' # WebSocket support
-gem 'uglifier', '~> 2.2.1'
+gem 'em-websocket', '>= 0.3.6' # WebSocket support
+gem 'uglifier', '>= 2.2.1'
 gem 'mime-types'
 
 
@@ -22,7 +22,7 @@ if RUBY_PLATFORM.downcase.include?('mswin') || RUBY_PLATFORM.downcase.include?('
   gem 'execjs'
   gem 'win32console'
 elsif !RUBY_PLATFORM.downcase.include?('darwin')
-  gem 'therubyracer', '0.11.3'
+  gem 'therubyracer', '>= 0.11.3'
   gem 'execjs'
 end
  
